@@ -18,6 +18,10 @@ pip install beautifulsoup4
 
 ## Test Run
 ```
+python app.py
+```
+
+```
 Fetching votes from archives.gov...[done]
 saved in cvs format under election.cvs...[done]
 saved in json format under election.json...[done]
