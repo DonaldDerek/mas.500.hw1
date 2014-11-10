@@ -1,0 +1,1 @@
+from electiondata import ElectionResultsurl = 'http://www.archives.gov/federal-register/electoral-college/2012/popular-vote.html'results = ElectionResults(url)results.load()state_names = results.states()print results.pretty_json()print "done ("+str(results.state_count())+" lines)"
